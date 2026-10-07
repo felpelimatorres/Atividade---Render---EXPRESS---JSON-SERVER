@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Pessoas - GET</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CRUD de Pessoas - Node.js + Express + JSON Server</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="create.html">Criar (POST)</a>
+            <a href="read.html" class="ativo">Listar (GET)</a>
+            <a href="update.html">Editar (PUT)</a>
+            <a href="delete.html">Excluir (DELETE)</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Pessoas cadastradas (GET)</h2>
+            <div class="acoes">
+                <button type="button" class="secundario" id="btnAtualizarLista">Atualizar lista</button>
+            </div>
+            <div class="tabela-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Sobrenome</th>
+                            <th>E-mail</th>
+                            <th>Idade</th>
+                            <th>Telefone</th>
+                            <th>Rua</th>
+                            <th>Bairro</th>
+                            <th>Cidade</th>
+                            <th>Estado</th>
+                            <th>RG</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-corpo"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="get/read.js"></script>
+</body>
+</html>

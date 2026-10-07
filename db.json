@@ -1,0 +1,30 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Maria",
+      "sobrenome": "Souza",
+      "email": "maria.souza@email.com",
+      "idade": 28,
+      "telefone": "(11) 98888-1234",
+      "rua": "Rua das Flores, 123",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "rg": "12.345.678-9"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "sobrenome": "Lima",
+      "email": "pedro.lima@email.com",
+      "idade": 34,
+      "telefone": "(21) 97777-5678",
+      "rua": "Av. Atlântica, 456",
+      "bairro": "Copacabana",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "rg": "98.765.432-1"
+    }
+  ]
+}

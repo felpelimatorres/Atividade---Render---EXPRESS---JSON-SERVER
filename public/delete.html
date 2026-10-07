@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Pessoa - DELETE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CRUD de Pessoas - Node.js + Express + JSON Server</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="create.html">Criar (POST)</a>
+            <a href="read.html">Listar (GET)</a>
+            <a href="update.html">Editar (PUT)</a>
+            <a href="delete.html" class="ativo">Excluir (DELETE)</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Buscar pessoa</h2>
+            <div class="grid-form">
+                <div class="campo">
+                    <label for="rgBusca">RG</label>
+                    <input type="text" id="rgBusca" placeholder="Digite o RG para buscar">
+                </div>
+            </div>
+            <div class="acoes">
+                <button type="button" class="secundario" id="btnBuscar">Buscar</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card">
+            <h2>Excluir pessoa (DELETE)</h2>
+            <div class="grid-form">
+                <div class="campo">
+                    <label for="id">ID</label>
+                    <input type="text" id="id" readonly>
+                </div>
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" readonly>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" readonly>
+                </div>
+                <div class="campo">
+                    <label for="rg">RG</label>
+                    <input type="text" id="rg" readonly>
+                </div>
+            </div>
+            <div class="acoes">
+                <button type="button" class="perigo" id="btnExcluir">Excluir</button>
+                <button type="button" class="secundario" id="btnLimpar">Limpar</button>
+            </div>
+            <div id="mensagem" class="mensagem"></div>
+        </div>
+    </main>
+
+    <script src="delete/delete.js"></script>
+</body>
+</html>

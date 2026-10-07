@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Pessoas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CRUD de Pessoas - Node.js + Express + JSON Server</h1>
+        <nav>
+            <a href="index.html" class="ativo">Início</a>
+            <a href="create.html">Criar (POST)</a>
+            <a href="read.html">Listar (GET)</a>
+            <a href="update.html">Editar (PUT)</a>
+            <a href="delete.html">Excluir (DELETE)</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Bem-vindo(a)!</h2>
+            <p>Este projeto demonstra as quatro operações do protocolo HTTP (CRUD) aplicadas a um cadastro de pessoas, cada uma em sua própria página:</p>
+            <ul>
+                <li><strong>POST</strong> — <a href="create.html">Adicionar nova pessoa</a></li>
+                <li><strong>GET</strong> — <a href="read.html">Listar todas as pessoas cadastradas</a></li>
+                <li><strong>PUT</strong> — <a href="update.html">Buscar e atualizar uma pessoa</a></li>
+                <li><strong>DELETE</strong> — <a href="delete.html">Excluir uma pessoa</a></li>
+            </ul>
+            <p>Os dados são armazenados no arquivo <code>db.json</code>, servido pelo JSON Server através da rota <code>/api/pessoas</code>.</p>
+        </div>
+    </main>
+</body>
+</html>
